@@ -41,5 +41,18 @@ console.log(reverseWord(parola));
 
 function reverseWord(parola) {
 return parola.split('').reverse().join('');
-  
 }
+
+// SNACK 4
+
+const animali = ["cane", "gatto", "elefante", "leone", "tigre", "cavallo", "zebra", "scimmia", "topo", "lupo"];
+const colori = ["rosso", "blu", "verde", "giallo", "arancione", "viola", "bianco", "nero", "grigio", "marrone"];
+const newArray = [];
+
+for (let i = 0; i < animali.length; i++) {
+  const animale = animali[i];
+  const colore = colori[i];
+  newArray.push(animale,colore)
+    
+}
+console.log(newArray);
