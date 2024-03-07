@@ -56,3 +56,16 @@ for (let i = 0; i < animali.length; i++) {
     
 }
 console.log(newArray);
+
+// SNACK 5
+const lettere = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+const a = 2;
+const b = 6;
+
+letterFind()
+
+function letterFind(array, numA, numB){
+  return lettereComprese= lettere.slice(a, b);
+  
+}
+console.log(lettereComprese);
