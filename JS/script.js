@@ -33,3 +33,13 @@ for(const zucchina of zucchine){
 
 console.log(zucchineCorte);
 console.log(zucchineLunghe);
+
+
+// SNACK 3
+const parola = 'GiovanniGiorgio';
+console.log(reverseWord(parola));
+
+function reverseWord(parola) {
+return parola.split('').reverse().join('');
+  
+}
